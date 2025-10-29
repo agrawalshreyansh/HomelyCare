@@ -1,0 +1,85 @@
+/* Google Fonts - Inter */
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap'); */
+/* Material Symbols */
+
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
+
+@import "tailwindcss";
+
+/* Material Icons Configuration */
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* Utility class for smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Utility Classes - Light Mode (Default) */
+.bg-background-light {
+  background-color: #f6f7f8;
+}
+
+.bg-background-dark {
+  background-color: #101c22;
+}
+
+.text-text-light {
+  color: #555555;
+}
+
+.text-text-dark {
+  color: #E0E0E0;
+}
+
+.text-heading-light {
+  color: #0d171b;
+}
+
+.text-heading-dark {
+  color: #FFFFFF;
+}
+
+.bg-primary {
+  background-color: #43C1AD;
+}
+
+.text-primary {
+  color: #43C1AD;
+}
+
+.bg-secondary {
+  background-color: #F5A623;
+}
+
+.text-secondary {
+  color: #F5A623;
+}
+
+.hover\:text-primary:hover {
+  color: #43C1AD;
+}
+
+.hover\:bg-primary\/90:hover {
+  background-color: rgba(67, 193, 173, 0.9);
+}
+
+.bg-primary\/20 {
+  background-color: rgba(67, 193, 173, 0.2);
+}
+
+.bg-background-light\/80 {
+  background-color: rgba(246, 247, 248, 0.8);
+}
+
