@@ -1,3 +1,6 @@
+'use client';
+
+import { useRouter } from 'next/navigation';
 import Button from "../ui/Button";
 
 const HERO_DATA = {
@@ -10,6 +13,7 @@ const HERO_DATA = {
 };
 
 export default function HeroSection() {
+  const router = useRouter();
   return (
     <section className="w-full">
       <div className="relative">
@@ -28,10 +32,10 @@ export default function HeroSection() {
             </p>
           </div>
           <div className="flex flex-wrap gap-4 justify-center mt-4">
-            <Button variant="primary" size="large">
+            <Button variant="primary" size="large" onClick={() => router.push('/user/dashboard')}>
               {HERO_DATA.primaryCTA}
             </Button>
-            <Button variant="light" size="large">
+            <Button variant="light" size="large" onClick={() => router.push('/caretaker/auth')}>
               {HERO_DATA.secondaryCTA}
             </Button>
           </div>

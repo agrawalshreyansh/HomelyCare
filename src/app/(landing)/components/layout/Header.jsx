@@ -7,8 +7,8 @@ import Icon from "../ui/Icon";
 import ThemeToggle from "../ui/ThemeToggle";
 
 const NAV_LINKS = [
-  { label: "Find Care", href: "#" },
-  { label: "Become a Carer", href: "#" },
+  { label: "Find Care", href: "/auth" },
+  { label: "Become a Carer", href: "/caretaker/auth" },
   { label: "About Us", href: "#" },
 ];
 

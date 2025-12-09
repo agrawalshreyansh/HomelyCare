@@ -1,5 +1,5 @@
 /* Google Fonts - Inter */
-/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap');
 /* Material Symbols */
 
 @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
@@ -52,11 +52,11 @@ html {
 }
 
 .bg-primary {
-  background-color: #43C1AD;
+  background-color: #13a4ec;
 }
 
 .text-primary {
-  color: #43C1AD;
+  color: #13a4ec;
 }
 
 .bg-secondary {
@@ -68,18 +68,17 @@ html {
 }
 
 .hover\:text-primary:hover {
-  color: #43C1AD;
+  color: #13a4ec;
 }
 
 .hover\:bg-primary\/90:hover {
-  background-color: rgba(67, 193, 173, 0.9);
+  background-color: rgba(19, 164, 236, 0.9);
 }
 
 .bg-primary\/20 {
-  background-color: rgba(67, 193, 173, 0.2);
+  background-color: rgba(19, 164, 236, 0.2);
 }
 
 .bg-background-light\/80 {
   background-color: rgba(246, 247, 248, 0.8);
 }
-
